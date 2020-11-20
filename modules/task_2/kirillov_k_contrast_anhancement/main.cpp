@@ -36,10 +36,10 @@ TEST(Parallel_Operations_MPI, Test_Matrix_11x3) {
     ASSERT_EQ(check, 1);
     }
 }
-TEST(Parallel_Operations_MPI, Test_Matrix_13x5) {
+TEST(Parallel_Operations_MPI, Test_Matrix_17x5) {
     int procRank;
     MPI_Comm_rank(MPI_COMM_WORLD, &procRank);
-    int rows = 13;
+    int rows = 17;
     int cols = 5;
     double alpha = 1.5;
     int beta = 1;
